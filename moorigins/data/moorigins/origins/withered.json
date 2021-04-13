@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins:fire_immunity",
+		"origins:more_kinetic_damage",
+		"origins:nether_spawn",
+		"moorigins:soulbound",
+		"moorigins:soul_particles",
+		"moorigins:soul_flame",
+		"moorigins:unamphibious",
+		"moorigins:wilt",
+		"moorigins:nether_native",
+		"moorigins:undead",
+		"moorigins:unamphibious_rain"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 11,
+	"impact": 3,
+	"name": "Withered",
+	"description": "The mysterious Withered are from the soul sand valleys, and Nether Fortresses. They are cool."
+}

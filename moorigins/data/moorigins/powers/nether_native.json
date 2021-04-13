@@ -1,0 +1,23 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": -3
+	},
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:overworld"
+			},
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:end"
+			}
+		]
+	},
+	"name": "Nether Native",
+	"description": "They are native to the Nether; Therefore unacustomed to the Overworld and End dimensions, becoming weak inside them. They are stronger in the Nether."
+}

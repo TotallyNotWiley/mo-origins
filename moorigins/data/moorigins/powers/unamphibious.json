@@ -1,0 +1,14 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": -0.5
+	},
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water"
+	},
+	"name": "Unamphibious",
+	"description": "Due to their innability to swim, they are slowed under water and in rain."
+}

@@ -1,0 +1,10 @@
+{
+	"type": "origins:effect_immunity",
+	"effects": [
+		"minecraft:poison",
+		"minecraft:hunger",
+		"minecraft:wither"
+	],
+	"name": "Undead",
+	"description": "Due to its lack of living tissue, it cannot be affected by mortal illnesses."
+}
