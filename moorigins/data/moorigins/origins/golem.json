@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins:extra_reach",
+		"origins:more_exhaustion",
+		"origins:no_shield",
+		"origins:natural_armor",
+		"moorigins:massive",
+		"moorigins:more_health",
+		"moorigins:heroic",
+		"moorigins:strong",
+		"moorigins:heavy",
+		"moorigins:sink_in_water",
+		"moorigins:no_elytra"
+	],
+	"icon": "minecraft:iron_ingot",
+	"order": 10,
+	"impact": 2,
+	"name": "Golem",
+	"description": "Descended from towering iron golems, Golems are natural defenders and are renowned and respected by villagers."
+}
