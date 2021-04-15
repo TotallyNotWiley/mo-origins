@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"origins:water_breathing",
+		"aorigins:less_health",
+		"aorigins:ink_spray",
+		"aorigins:squid_shoot",
+		"aorigins:better_water_vision",
+		"origins:swim_speed",
+		"origins:aqua_affinity",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+		"aorigins:river_spawn"
+	],
+	"icon": "minecraft:ink_sac",
+	"order": 17,
+	"impact": 3,
+	"name": "Squidling",
+	"description": "From the inky depths of the sea, the slippery squid love using their natural powers to escape predators."
+}

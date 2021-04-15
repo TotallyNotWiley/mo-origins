@@ -1,0 +1,31 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 20,
+    "duration_per_stack": 5,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+			"amplifier": 1,
+			"duration": 40,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:slowness",
+			"amplifier": 1,
+			"duration": 40,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+	"condition": {
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water",
+		"inverted": true
+	},
+	"name": "Waterborne",
+	"description": "They were born for ocean travel; So they have slowness and weakness on land."
+}

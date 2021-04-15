@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"origins": [
+		"aorigins:dolphin",
+		"aorigins:squidling",
+		"aorigins:turtle"
+	]
+}

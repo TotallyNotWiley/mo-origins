@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"origins:water_breathing",
+		"origins:no_shield",
+		"aorigins:bad_on_land",
+		"aorigins:kelp",
+		"aorigins:strong_shell",
+		"aorigins:carapace",
+		"aorigins:better_water_vision",
+		"origins:swim_speed",
+		"origins:aqua_affinity",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions",
+		"aorigins:river_spawn",
+		"aorigins:good_kelp"
+	],
+	"icon": "minecraft:turtle_helmet",
+	"order": 18,
+	"impact": 3,
+	"name": "Turtle",
+	"description": "Turtles are benevolent creatures. They swim through waters shallow and deep. And for some reason, really, REALLY hates straws."
+}

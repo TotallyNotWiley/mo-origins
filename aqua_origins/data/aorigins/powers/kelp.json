@@ -1,0 +1,20 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition":{
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "atags:kelp"
+                },
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Weak Liver",
+    "description": "You cannot digest anything but dried kelp. Dried kelp also gives more hunger and saturation."
+}

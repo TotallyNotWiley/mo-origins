@@ -1,0 +1,9 @@
+{
+	"type": "origins:toggle",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Carapace"
+	"description": "Turtles can hide inside of their shell to prevent almost all damage."
+}

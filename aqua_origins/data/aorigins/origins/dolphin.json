@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"aorigins:seafood",
+		"aorigins:gracious",
+		"aorigins:bad_on_land",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:aquatic",
+		"aorigins:river_spawn"
+	],
+	"icon": "minecraft:nautilus_shell",
+	"order": 15,
+	"impact": 1,
+	"name": "Dolphin",
+	"description": "Dolphins bless the ocean depths with their grace. Their playful nature are contagious."
+}

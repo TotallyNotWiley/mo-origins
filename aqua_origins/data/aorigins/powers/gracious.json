@@ -1,0 +1,19 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:spawn_effect_cloud",
+		"radius": 10.0,
+		"wait_time": 0,
+		"effect": {
+			"effect": "minecraft:dolphins_grace",
+			"amplifier": 0,
+			"duration": 100
+		}
+	},
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    },
+	"name": "Gracious",
+	"description": "Players within a 10 block radius gets the Dolphin's Grace effect."
+}
