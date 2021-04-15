@@ -1,9 +1,0 @@
-{
-	"type": "origins:modify_swim_speed",
-	"modifier": {
-		"operation": "addition",
-		"value": -0.01
-	},
-	"name": "Unamphibious",
-	"description": "Due to their innability to swim, they are slowed under water and in rain."
-}
