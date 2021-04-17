@@ -1,8 +1,8 @@
 This is Mo' Origins! Mo' Origins is a datapack that adds more origins to the origins mod.
-Currently this datapack includes 2 origins.
+Currently this datapack includes 6 origins.
 
-I now have a second datapack!
-Aqua Origins.
+I now have more datapacks!
+Aqua Origins. Giant.
 
 Golem:
 + Can reach further
@@ -53,3 +53,11 @@ Squidling:
 + Spawns at a river
 - 4 less hearts
 (This origin has a secondary key. You can set it in options/controls)
+
+
+Giant:
++ Longer reach
++ has double health
+* Is 6 blocks tall and 2 blocks wide
+- Cannot use an elytra
+- Sink in water
