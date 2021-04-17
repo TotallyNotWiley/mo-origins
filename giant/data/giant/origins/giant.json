@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins:extra_reach",
+		"giant:big",
+		"giant:big_health",
+		"giant:heavy",
+		"giant:no_elytra",
+		"giant:sink_in_water"
+	],
+	"icon": "minecraft:snowball",
+	"order": 10,
+	"impact": 2,
+	"name": "Giant",
+	"description": "From the fringes of Jotunheim, from which you were born, you are substantially taller than mortals."
+}

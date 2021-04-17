@@ -1,0 +1,11 @@
+{
+	"type": "origins:restrict_armor",
+	"chest": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:elytra"
+		}
+	},
+	"name": "Heavy",
+	"description": "You are overwhelmingly massive. You are unable to fly and you sink in water."
+}
