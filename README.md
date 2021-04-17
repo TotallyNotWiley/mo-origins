@@ -1,5 +1,5 @@
 This is Mo' Origins! Mo' Origins is a datapack that adds more origins to the origins mod.
-Currently this datapack includes 6 origins.
+Currently this datapack includes 7 origins.
 
 I now have more datapacks!
 Aqua Origins. Giant. Brute.
