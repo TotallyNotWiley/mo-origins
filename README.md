@@ -2,7 +2,7 @@ This is Mo' Origins! Mo' Origins is a datapack that adds more origins to the ori
 Currently this datapack includes 6 origins.
 
 I now have more datapacks!
-Aqua Origins. Giant.
+Aqua Origins. Giant. Brute.
 
 Golem:
 + Can reach further
@@ -61,3 +61,14 @@ Giant:
 * Is 6 blocks tall and 2 blocks wide
 - Cannot use an elytra
 - Sink in water
+
+
+Brute:
++ Does +6 attack damage.
++ Can summon 3 piglins at the cost of 3 hearts. (on cooldown)
++ When you are hit you get speed 2 and resistance (on cooldown)
++ Piglins don't attack you, but Brutes do.
+- The sword does significantly less damage.
+- You take 15% more damage.
+- Can only eat meat.
+- You spawn in a bastion.
