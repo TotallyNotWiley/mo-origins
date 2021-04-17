@@ -1,0 +1,31 @@
+{
+	"type": "origins:self_action_when_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [
+			{
+				"effect": "minecraft:resistance",
+				"amplifier": 0,
+				"duration": 900,
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:speed",
+				"amplifier": 1,
+				"duration": 900,
+				"is_ambient": true,
+				"show_particles": false,
+				"show_icon": false
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 5
+	},
+	"cooldown": 6000,
+	"name": "Quick Reflexes",
+	"description": "When provoked, Brutes get angered, becoming faster and resistant to damage for a short amount of time."
+}

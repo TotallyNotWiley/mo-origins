@@ -1,0 +1,10 @@
+{
+	"type": "origins:toggle",
+	"hidden": false,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Reinforcements",
+	"description": "You can call in piglin reinforcements as backup, at the cost of 3 hearts of health."
+}

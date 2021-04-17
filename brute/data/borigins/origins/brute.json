@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"borigins:spawn_in_bastion",
+		"borigins:damage",
+		"borigins:reinforcements",
+		"borigins:speed_when_hit",
+		"borigins:scarred_skin",
+		"origins:carnivore",
+		"borigins:no_sword",
+		"extraorigins:piglin_neutrality",
+		"borigins:summon_one",
+		"borigins:summon_four",
+		"borigins:summon_five",
+		"borigins:summon_two"
+	],
+	"icon": "minecraft:golden_axe",
+	"order": 15,
+	"impact": 3,
+	"name": "Brute",
+	"description": "Brutes are inherently aggresive. They strike hard and fast. They lead civilizations of Piglins into prosperity."
+}

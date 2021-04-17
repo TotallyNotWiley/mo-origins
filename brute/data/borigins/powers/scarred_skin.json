@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_damage_taken",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1.15
+	},
+	"name": "Scarred Skin",
+	"description": "You take 15% more damage."
+}
