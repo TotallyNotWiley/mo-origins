@@ -1,7 +1,6 @@
 {
 	"replace": false,
 	"origins": [
-		"moorigins:golem",
-		"moorigins:withered"
+		"moorigins:golem"
 	]
 }
