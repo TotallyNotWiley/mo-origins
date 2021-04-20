@@ -1,0 +1,21 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:small_fireball",
+	"tag": "{NoGravity:1b}",
+	"cooldown": 250,
+	"count": 1,
+	"hud_render":{
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 7
+	},
+	"continuous": true,
+	"speed": 0.5,
+	"sound": "item.firecharge.use",
+	"divergence": 0,
+	"name": "Photon Beam",
+	"description": "You can fire a beam of super-condensed photons.",
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": true
+	}
+}
