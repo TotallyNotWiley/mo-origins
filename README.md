@@ -72,3 +72,6 @@ Brute:
 - You take 15% more damage.
 - Can only eat meat.
 - You spawn in a bastion.
+
+
+Sunborne:
