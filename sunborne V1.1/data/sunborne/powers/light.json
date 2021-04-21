@@ -1,0 +1,20 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_source": {
+		"name": "magic",
+        "unblockable": true,
+        "bypasses_armor": true,
+		"magic": true
+    },
+    "condition": {
+        "type": "origins:brightness",
+		"comparison": "<=",
+		"compare_to": "0.1"
+    },
+	"name": "Nyctophobia",
+	"description": "You are afraid of the dark. You take damage if you are not in a high enough light level."
+}

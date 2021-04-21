@@ -1,0 +1,114 @@
+{
+	"type": "origins:action_over_time",
+  	"entity_action": {
+  		"type": "origins:and",
+  		"actions": [
+  			{
+    			"type": "origins:execute_command",
+    			"command": "gamerule showDeathMessages false",
+    			"permission_level": 4
+    		},
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:warped_spore ~ ~1 ~ 0.2 0.5 0.2 1 1000 force",
+          "permission_level": 4
+        },
+  			{
+    			"type": "origins:delay",
+    			"ticks": 1,
+    			"action": {
+    				"type": "origins:execute_command",
+    				"command": "kill @s",
+    				"permission_level": 4
+    			}
+    		},
+  			{
+    			"type": "origins:delay",
+    			"ticks": 1,
+    			"action": {
+    				"type": "origins:execute_command",
+    				"command": "gamerule showDeathMessages true",
+    				"permission_level": 4
+    			}
+    		},
+  			{
+    			"type": "origins:delay",
+    			"ticks": 1,
+    			"action": {
+            "type": "origins:choice",
+            "actions": [
+              {
+                "element": {
+          				"type": "origins:execute_command",
+          				"command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" spontaneously combusted\"}]",
+          				"permission_level": 4
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" collapsed in on themselves\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" overheated\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" imploded\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" was a bit too hot\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              },
+              {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" tried to swi- be lava\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              },
+			  {
+                "element": {
+                  "type": "origins:execute_command",
+                  "command": "tellraw @a [{\"selector\":\"@s\",\"italic\":false},{\"text\":\" flared up\"}]",
+                  "permission_level": 4
+                },
+                "weight": 10
+              }
+            ]
+    			}
+    		},
+    		{
+    			"type": "origins:change_resource",
+    			"resource": "sunborne:die",
+    			"change": -100
+    		}
+    	]
+  	},
+  	"interval": 1,
+  	"condition": {
+      "type": "origins:resource",
+      "resource": "sunborne:die",
+      "comparison": ">=",
+      "compare_to": 100
+    },
+    "hidden": true
+}

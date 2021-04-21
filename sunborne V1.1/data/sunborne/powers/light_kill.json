@@ -1,0 +1,15 @@
+{
+	"type": "origins:action_over_time",
+  	"entity_action": {
+  		"type": "origins:change_resource",
+    	"resource": "sunborne:die",
+    	"change": -100
+    },
+  	"interval": 1,
+  	"condition": {
+      "type": "origins:health",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "hidden": true
+}
