@@ -1,0 +1,19 @@
+{
+	"type": "origins:resource",
+	"min": 0,
+	"max": 100,
+	"start_value": 0,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 12,
+    	"condition": {
+    		"type": "origins:resource",
+      		"resource": "sky:bar",
+      		"comparison": ">",
+      		"compare_to": 0
+      	}
+	},
+	"name": "Untame Skies",
+	"description": "If you use your abilities too much, the sky fluctuates and you lose control."
+}

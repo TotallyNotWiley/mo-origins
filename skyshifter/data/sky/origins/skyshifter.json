@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"sky:time",
+		"sky:weather",
+		"sky:sky_blessing",
+		"sky:time_buff",
+		"sky:time_buff_two",
+		"sky:weather_buff",
+		"sky:weather_buff_two",
+		"sky:bar",
+		"sky:bar_kill",
+		"sky:recover",
+		"sky:skylight",
+		"sky:immune_to_lightning",
+		"sky:bar_two",
+		"sky:recover_two",
+		"sky:recover_three",
+		"sky:glow"
+	],
+	"icon": "minecraft:white_stained_glass",
+	"order": 19,
+	"impact": 2,
+	"name": "Skyshifter",
+	"description": "Born from the skies, Skyshifters mastered the powers of the sky."
+}

@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+	    "type": "origins:change_resource",
+	    "resource": "sky:bar_two",
+	    "change": 1
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:exposed_to_sky"
+			}
+		]
+	},
+	"interval": 20,
+	"hidden": true
+},

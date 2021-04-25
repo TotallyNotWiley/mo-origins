@@ -1,0 +1,25 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 20,
+    "duration_per_stack": 3,
+    "effect": {
+        "effect": "minecraft:speed",
+        "is_ambient": true,
+        "show_particles": true,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:daytime",
+				"inverted": true
+			},
+			{
+				"type": "origins:exposed_to_sky"
+			}
+		]
+    },
+	"hidden": true
+}
