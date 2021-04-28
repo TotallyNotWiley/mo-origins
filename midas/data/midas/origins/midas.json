@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"midas:gold_eat",
+		"midas:gold_heart"
+	],
+	"icon": "minecraft:gold_ingot",
+	"order": 19,
+	"impact": 1,
+	"name": "Midas",
+	"description": "Midas, ambassador of gold, wealth, and treasure."
+}

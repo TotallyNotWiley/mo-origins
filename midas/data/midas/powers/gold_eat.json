@@ -1,0 +1,176 @@
+{
+	"type": "origins:multiple",
+	"gold_block": {
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"type":"origins:active_self",
+		"cooldown": 45,
+		"hud_render": {
+			"should_render":false
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:gold_block"
+						}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<",
+					"compare_to": 20
+				}
+			]
+		},
+		"entity_action": {
+			"type":"origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s gold_block 1"
+				},
+				{
+					"type":"origins:feed",
+					"food": 10,
+					"saturation": 15
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1",
+					"permission_level": 4
+				}
+			]
+		},
+		"hidden":true
+	},
+	"gold_ingot": {
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"type":"origins:active_self",
+		"cooldown": 45,
+		"hud_render": {
+			"should_render":false
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:gold_ingot"
+						}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<",
+					"compare_to": 20
+				}
+			]
+		},
+		"entity_action": {
+			"type":"origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s gold_ingot 1"
+				},
+				{
+					"type":"origins:feed",
+					"food": 6,
+					"saturation": 8
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1",
+					"permission_level": 4
+				}
+			]
+		},
+		"hidden":true
+	},
+	"gold_nugget": {
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		},
+		"type":"origins:active_self",
+		"cooldown": 45,
+		"hud_render": {
+			"should_render":false
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:gold_nugget"
+						}
+					}
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": "<",
+					"compare_to": 20
+				}
+			]
+		},
+		"entity_action": {
+			"type":"origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "clear @s gold_nugget 1"
+				},
+				{
+					"type":"origins:feed",
+					"food": 2,
+					"saturation": 3
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1",
+					"permission_level": 4
+				}
+			]
+		},
+		"hidden":true
+	},
+	"gold_items": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:food"
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "midas_tag:gold"
+					},
+					"inverted": true
+				}
+			]
+		}
+	},
+	"name": "Solid Diet",
+	"description": "You can only eat gold. Even unedible gold!"
+}

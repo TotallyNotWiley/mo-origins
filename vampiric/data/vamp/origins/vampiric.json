@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"midas:gold_eat",
+		"midas:gold_heart"
+	],
+	"icon": "minecraft:redstone",
+	"order": 19,
+	"impact": 3,
+	"name": "Vampiric",
+	"description": "Placeholder"
+}
